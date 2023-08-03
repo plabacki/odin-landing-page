@@ -35,6 +35,11 @@ h1 {
     padding-bottom: 20px;
 }
 
+h2 {
+    font-size: 36px;
+    font-weight: 800;
+    color: var(--dark_background_color);
+}
 button {
     background-color: var(--button_color);
     color: var(--main_text_color);
@@ -66,9 +71,10 @@ header {
 }
 
 .header-logo {
-    margin-right: auto;
-    font-size: 24px;
     color: var(--main_text_color);
+    font-size: 24px;
+    font-weight: bold;
+    margin-right: auto;
     padding-left: 0;
 }
 .header-text{
@@ -94,4 +100,50 @@ header {
 
 .header-box p {
     justify-content: center;
+}
+
+
+
+.first-section{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    background-color: white;
+    height: 500px;
+    
+}
+
+.first-section-wrapper {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    width: 1200px;
+    height: 400px;
+}
+
+.four-blocks {
+    display: flex;
+    flex-direction: row;
+}
+
+.blocks {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    width: 200px;
+    margin:50px;
+}
+.block {
+    background-color: white;
+    border: 5px solid var(--button_color);
+    border-radius: 12px;
+    height: 200px;
+    width: 200px;
+    margin-bottom: 20px;
+}
+
+.blocks p {
+    text-align: center;
+    font-size: 18px;
+    color: gray;
 }
