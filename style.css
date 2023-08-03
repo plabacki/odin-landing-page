@@ -177,6 +177,7 @@ header {
     font-size: 24px;
     font-weight: bold;
     padding-right: 30px;
+    font-style: normal;
 }
 
 
@@ -207,4 +208,15 @@ header {
 .third-section p {
     font-size: 18px;
     color: var(--main_text_color);
+}
+
+
+footer {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 100px;
+    background-color: var(--dark_background_color);
+    color: var(--secondary_color);
+    font-size: 12px;
 }
